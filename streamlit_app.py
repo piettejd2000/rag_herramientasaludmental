@@ -15,9 +15,9 @@ from pathlib import Path
 from typing import Dict, List, Any
 
 # Add paths for v2.0 components
-  current_dir = Path(__file__).parent
-  sys.path.append(str(current_dir / 'v2.0'))
-  sys.path.append(str(current_dir / 'chunking_pys'))
+current_dir = Path(__file__).parent
+sys.path.append(str(current_dir / 'v2.0'))
+sys.path.append(str(current_dir / 'chunking_pys'))
 
 try:
     from enhanced_therapy_rag_v2 import EnhancedTherapyRAGv2, CompatibilityWrapper, create_enhanced_rag_v2
