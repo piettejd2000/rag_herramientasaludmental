@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Fresh deploy - 2026-06-09
 """
 RAG v2.0 Streamlit Interface with Adaptive Grounding
 Enhanced UI showing routing decisions and performance metrics
